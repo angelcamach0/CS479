@@ -1,0 +1,429 @@
+!This program cannot be run in DOS mode.
+p*[
+ 3W
+p*Z
+Rich
+.text
+`.rdata
+@.data
+.rsrc
+Wh?
+jjjjj
+h<P@
+h0P@
+h0P@
+h0P@
+XSVW
+$@@
+ @@
+`P@
+(@@
+_9=
+0@@
+,@@
+YYh P@
+(@@
+;t$
+4I+
+pP@
+4@@
+hP@
+hP@
+hP@
+hP@
+<"u%
+F<"t
+>"u
+< v
+> w
+< v
+VWu
+<=t
+t9UW
+?=t"U
+QQS3
+VWu
+8@@
+PSSW
+PVW
+8"uD
+"t)
+aX@
+8"uF@
+aX@
+8\u
+8"u,
+u%3
+ t?
+aX@
+aX@
+_^[
+-L@@
+VW3
+H@@
+@@f9
+@@f9
+=D@@
+SS@SSPVSS
+D$4
+t2U
+t#SSUP
+t$$VSS
+@@@
+uL;
+H@@
+t<8
+UWV
+<@@
+_^][YY
+DSUVWh
+|$B
+D$D
+Yt8
+X@@
+T@@
+X@@
+P@@
+_^][
+9D$
+`@@
+hY@
+5hY@
+\@@
+SVWUj
+]_^[
+SVW
+D$
+t.;t$$t(
+_^[
+VC20XC00U
+SVWU
+tEVU
+t3x<
+]_^[
+=dP@
+u!h
+=dP@
+8@@
+<v)
+htC@
+hpC@
+hHC@
+T@@
+p@@
+aX@
+#D$
+SVW
+Y;5LW@
+90tr
+0B=
+t@@
+j@3
+`X@
+5LW@
+dY@
+aX@
+j@3
+`X@
+aX@
+\W@
+LW@
+PW@
+dY@
+UAA
+aX@
+dY@
+\W@
+\W@
+PW@
+_^[
+%|@@
+%x@@
+Wj@Y3
+`X@
+PW@
+LW@
+\W@
+dY@
+5LW@
+t@@
+t7SW
+
+_[j
+5dY@
+5LW@
+VPj
+5LW@
+VPV
+5dY@
+5LW@
+VPh
+5dY@
+aX@
+`W@
+aX@
+`W@
+@AA;
+aX@
+`W@
+aX@
+`W@
+t$V
+YY^
+5hY@
+h@@
+5,W@
+9D$
+5hY@
+L%@
+0%@
+|%@
+t%@
+l%@
+P'@
+X&@
+P'@
+h&@
+P'@
+P'@
+P'@
+$'@
+,'@
+4'@
+G'@
+P'@
+`'@
+h'@
+x'@
+5hY@
+HW@
+%@W@
+%DW@
+<W@
+4W@
+DW@
+HW@
+j?I_
+j?_
+IZ;
+@W@
+8W@
+=d@@
+8W@
+@W@
+@W@
+8W@
+@W@
+@W@
+@W@
+ulSj
+@W@
+5hY@
+h@@
+DW@
+HW@
+@W@
+DW@
+@W@
+HW@
+<W@
+@W@
+58W@
+_^[
+DW@
+HW@
+<W@
+;#M
+;#M
+uY;]
+<W@
+D#M
+pD#U
+j #M
+j?^;
+ }+
+@W@
+8W@
+%@W@
+_^[
+DW@
+4W@
+VW3
+5HW@
+5hY@
+4W@
+HW@
+DW@
+HW@
+5hY@
+t*j
+5hY@
+h@@
+DW@
+SVW
+j?i
+NCu
+_^[
+VWuBh
+tPh
+_^[
+tzVS
+GIt%
+t/Ku
+[^_
+GKu
+[^_
+SVW
+9=$W@
+uFWWj
+[Sh
+$W@
+"WWSh
+$W@
+$W@
+9} u
+E WW
+tfS
+tMWWS
+t@9}
+_^[
+WWu
+VSh
+D@@
++D$
+SVW
+(W@
+^Vh
+PVh
+(W@
+WSV
+_^[
+0W@
+l6@
+d6@
+\6@
+T6@
+L6@
+D6@
+<6@
+ 8@
+(7@
+ 8@
+87@
+X7@
+ 8@
+ 8@
+ 8@
+ 8@
+08@
+88@
+H8@
+\8@
+tG3
+GIu
+GJu
+%l@@
+runtime error
+TLOSS error
+SING error
+DOMAIN error
+R6028
+- unable to initialize heap
+R6027
+- not enough space for lowio initialization
+R6026
+- not enough space for stdio initialization
+R6025
+- pure virtual function call
+R6024
+- not enough space for _onexit/atexit table
+R6019
+- unable to open console device
+R6018
+- unexpected heap error
+R6017
+- unexpected multithread lock error
+R6016
+- not enough space for thread data
+abnormal program termination
+R6009
+- not enough space for environment
+R6008
+- not enough space for arguments
+R6002
+- floating point not loaded
+Microsoft Visual C++ Runtime Library
+Runtime Error!
+Program:
+...
+<program name unknown>
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+user32.dll
+B3@
+F3@
+ControlService
+StartServiceA
+OpenServiceA
+CreateServiceA
+OpenSCManagerA
+ADVAPI32.dll
+GetModuleHandleA
+GetStartupInfoA
+GetCommandLineA
+GetVersion
+ExitProcess
+TerminateProcess
+GetCurrentProcess
+UnhandledExceptionFilter
+GetModuleFileNameA
+FreeEnvironmentStringsA
+FreeEnvironmentStringsW
+WideCharToMultiByte
+GetEnvironmentStrings
+GetEnvironmentStringsW
+SetHandleCount
+GetStdHandle
+GetFileType
+HeapDestroy
+HeapCreate
+VirtualFree
+HeapFree
+RtlUnwind
+WriteFile
+GetCPInfo
+GetACP
+GetOEMCP
+HeapAlloc
+VirtualAlloc
+HeapReAlloc
+GetProcAddress
+LoadLibraryA
+MultiByteToWideChar
+LCMapStringA
+LCMapStringW
+GetStringTypeA
+GetStringTypeW
+KERNEL32.dll
+."@
+Lab10-01
+C:\Windows\System32\Lab10-01.sys
+ C@
+xB@
+HB@
+$B@
+`A@
+(A@
+         (((((                  H
+&File
+iE&xit
+&Help
+h&About ...
+About
+System
+RegWriterApp Version 1.0
+Copyright (C) 2011
+RegWriterApp
+Hello World!
+REGWRITERAPP

