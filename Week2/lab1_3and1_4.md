@@ -2,8 +2,18 @@
 #### Camacho, Angel | Feb 1, 2023 | CS 479
 ---
 
+Summary: Within this lab we took a look at two other viruses, both being .exe files, both of these files were flagged as viruses by Virustotal.com the first with an over all 85 virus flag rate, and the second one with an 82 percent virus flag rate.
+
+From the tools that we used including UPX and Strings, it seemed like it both files were obfuscated, or the method of unpacking simply was not working on these specific files.
+
+From the first libraries that were called we can infer that there was an ettempet for memory manipulation (kernell32.dll) and something to do with retreving the highest ordinal value GetProcAddress. 
+The second libraries that were called which were KERNEL32.dll & Advapi32.dll which provides access to advanced core Windows components such
+as the Service Manager and Registry.
+
+
 Lab 1-3
 Analyze the file Lab01-03.exe.
+
 1. Upload the Lab01-03.exe file to http://www.VirusTotal.com/. Does it match
 any existing antivirus definitions?
 
@@ -211,8 +221,3 @@ MD5 625ac05fd47adc3c63700c3b30de79ab
 SHA-1 9369d80106dd245938996e245340a3c6f17587fe
 SHA-256 0fa1498340fca6c562cfa389ad3e93395f44c72fd128d7ba08579a69aaf3b126 
 ```
-
-6. This file has one resource in the resource section. Use Resource Hacker
-to examine that resource, and then use it to extract the resource. What
-can you learn from the resource?
-
