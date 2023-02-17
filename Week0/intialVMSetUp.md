@@ -1,5 +1,5 @@
 # CS479/579 Reverse Engineering at NMSU
-#### Camacho, Angel | Jan 26, 2023 | CS 479
+#### Camacho, Angel | Jan 26, 2023 | CS 479 | Week 0
 ---
 
 In this repo (will) hold your reports on reverse engineering malware samples from "Practical Malware Analysis"

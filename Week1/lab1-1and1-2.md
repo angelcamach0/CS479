@@ -1,5 +1,5 @@
 # CS479/579 Reverse Engineering at NMSU
-#### Camacho, Angel | Jan 30, 2023 | CS 479
+#### Camacho, Angel | Jan 30, 2023 | CS 479 | Week 1
 ---
 ### Analyze the file Lab01-01.dll
 

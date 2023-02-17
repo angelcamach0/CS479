@@ -1,5 +1,5 @@
 # CS479/579 Reverse Engineering at NMSU
-#### Camacho, Angel | Feb 1, 2023 | CS 479
+#### Camacho, Angel | Feb 1, 2023 | CS 479 | Week 2
 ---
 
 Summary: Within this lab we took a look at two other viruses, both being .exe files, both of these files were flagged as viruses by Virustotal.com the first with an over all 85 virus flag rate, and the second one with an 82 percent virus flag rate.
