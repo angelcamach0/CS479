@@ -22,7 +22,7 @@ The purpose of inetsim (simulated internet) in this case is to prevent the malwa
 ### Lab03-01.exe
 ## Executive Summary
 
-What I learned about the malware
+
 After analyzing the malware I learned a few things one of them being the fact that it seems like its trying to reach for the domain www.preacticalmalwareanalysis.com. I am unsure what it exactly is trying to do with it but, I do know it is trying to connect to it. 
 
 Further more I ran the Lab03-01.exe through Virustotal.com I learned that the executable file was being packed by "PENinja", the website had 66 different virusscanners flagg it as malware.
@@ -34,21 +34,22 @@ With Strings I learned that the the following libraries were being reached, kern
 How do i know that the maware is doing something bad?
 Honestly after analyzing this malware despite the fact that it is being flagged as malware I cannot say for sure that it is actually doing something malicious in the computer. I know the program is trying to use some libraries that can be used for malicious intent but it does not mean that it is neseesary doing anything malicious.
 
-Perhaps because we are in a safe environment but with the tools I have used I cannot concretly deduct that it is doing something bad.
-
+Perhaps because we are in a safe environment but with the tools I have used I cannot concretly deduct that the malware is doing something malicious.
 
 
 ## Mitigations
 
-how to stop the malware. prevent it from happening.
-Utilizing Windows 10, or Windows 11 will automatically place the security and vulnerabily of you device miles ahead compared to using an expired operating system.
+By utilizing Windows 10, or Windows 11 will automatically place the security and vulnerabily of you device miles ahead compared to using an expired operating system.
 Also having a a firewall enabeled might help, and if by some chance the malware some how still infected your machine, then perhaps having a dumby internet connect would help prevent malware from accesing the internet while stilll allowing the maware to "think" it is connected to the internet.
 
 
 ## Evidence
 
-
+Before running the malware I opened wireshark to observe the packets that were being sent and recieved. No packets were being sent or recieved prior to executing the malware. After the malware was executed, I found that there was a change in activity. 
+I copied and paseted the request.
 From WIRESHARK: "38","161.603196000","10.0.0.23","10.0.0.20","DNS","92","Standard query 0xbb77  A www.practicalmalwareanalysis.com"
+Regshot did not help 
+
 
 ### Lab03-02.dll
 ## Executive Summary
