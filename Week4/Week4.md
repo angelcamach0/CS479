@@ -36,7 +36,8 @@ The result of `<em>xor eax, eax`</em> is the register eax being set to zero. In 
 Also solve this crackme
 
 <hr>
-## Ghidra first time use
+
+### Ghidra first time use
 
 In this week we were also introduced to a new tool, a tool desinged by the one an only NSA. We used Ghidra decompiler. The objective was very simple, figure out the "password" that the program required us to input inorder for the result to give us the pass. 
 
