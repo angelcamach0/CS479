@@ -35,6 +35,9 @@ AL is one of three ways of referencing to EAX which is one byte.
 The result of `<em>xor eax, eax`</em> is the register eax being set to zero. In other words, it clears the EAX register.
 Also solve this crackme
 
+<hr>
+## Ghidra first time use
+
 In this week we were also introduced to a new tool, a tool desinged by the one an only NSA. We used Ghidra decompiler. The objective was very simple, figure out the "password" that the program required us to input inorder for the result to give us the pass. 
 
 First we installed it our linux vm's, I had to install a GUI on my virtual machine because I was running Ubuntu Live Server. Not that Ghidra is malware but we also took safety precations while installing the program, such as trasferring files via the shared folder of the vm, and not directly logging in to our vms to the internet, infact we isolated our virtual machines form the network in previous weeks. 
