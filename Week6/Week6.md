@@ -1,5 +1,5 @@
 # CS479/579 Reverse Engineering at NMSU
-#### Camacho, Angel | Feb 14, 2023 | CS 479 | Week 4
+#### Camacho, Angel | Feb 14, 2023 | CS 479 | Week 6
 ---
 
 In this week we solved three easy "crackmes", the extraction password for each of these is 'nmsu_re'.
