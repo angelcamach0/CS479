@@ -1,21 +1,40 @@
 
 # CS479/579 Reverse Engineering at NMSU
-#### Camacho, Angel | Jan 30, 2023 | CS 479 | Week 8
+#### Camacho, Angel | Apr 17, 2023 | CS 479 | Week 8
 ---
 
 ## Detecting DLL Injection
 
-This week, I dove into the world of malware analysis and detection by dissecting "real" malware that uses DLL injection as an attack vector. The malware analysis exercise corresponded with textbook chapter 12 and involved reverse-engineering a malicious program using RE skills learned in previous labs. The goal was to identify the injected DLL and understand how the malware operates.
+As part of our reverse engineering course, we were tasked with dissecting real malware and preparing malware analysis reports. This week's focus was on detecting DLL injection, a common technique used by malware loaders to inject evil threads into legitimate programs.
 
-To begin, I downloaded the malware from the Github repository provided and loaded it into Ghidra, a popular RE tool. My first task was to prove that the loader was using DLL injection. After analyzing the disassembled code, I discovered that the malware used the "CreateRemoteThread" function to inject its DLL into a legitimate process. I took a relevant snapshot in Ghidra to back up my findings.
+To accomplish this task, we used the malware from Lab 12-1 and honed our RE skills by doing crackmes. In order to demonstrate our understanding of the malware, we had to answer the following questions and provide relevant Ghidra screenshots to back up our answers:
 
-Next, I needed to identify the process that the malware would be injected into. I couldn't simply rely on seeing a string in Ghidra, as it could be misleading. After doing some additional research and analysis, I learned that the malware would inject into the "notepad.exe" process. This was because the malware searched for the process with a window title of "Untitled - Notepad" and injected the DLL into it.
+1. Prove that the loader is using DLL injection.
 
-Once I had identified the process, I turned my attention to finding the entry point of the DLL injection. I needed to find the DllMain function in the injected DLL to understand what it was doing. After some digging, I found the DllMain function at the address 0x100011D8. This function is the entry point of the DLL injection and is called when the DLL is loaded.
+To prove that the loader is using DLL injection, we analyzed the malware code in Ghidra and found evidence of it loading a DLL file using the LoadLibrary function. Specifically, we found a call to LoadLibraryA, which is used to load a DLL into the address space of the calling process. We also observed the malicious DLL being loaded into a legitimate process using Process Explorer, confirming that DLL injection was indeed taking place.
 
-The malware was programmed to do something every few seconds, and my next task was to identify how often this happened and where the loop was located in the code. After some analysis, I found that the malware was programmed to sleep for 10 seconds between iterations of the main loop. The loop itself was located in the function at address 0x10001500. I was able to use Ghidra to follow the code and understand how the malware was operating.
+![Alt text](Screenshot%20from%202023-05-13%2019-03-36.png)
 
-Finally, I needed to identify what the malware was doing every 10 seconds. After some analysis, I discovered that the malware was communicating with a remote server and sending it data about the infected system. The server was listening on port 9000, and the data was encrypted using a custom algorithm. This was a concerning discovery, as it meant that the malware was actively trying to exfiltrate data from the infected system.
+2. Identify the process that will be injected into.
 
-In conclusion, this exercise was a valuable learning experience that allowed me to apply RE skills learned in previous labs to identify and understand a real-world malware sample. Through the use of Ghidra and other analysis techniques, I was able to identify the injected DLL, the process it was injected into, the entry point of the DLL injection, and the main loop that executed every 10 seconds. I also discovered that the malware was communicating with a remote server and attempting to exfiltrate data from the infected system. Overall, this exercise reinforced the importance of understanding and detecting DLL injection as an attack vector.
+Identifying the process that will be injected into requires analyzing the code further. We found that the malware enumerates through a list of running processes on the system and checks each one to see if it meets certain criteria for injection. Specifically, it looks for a process with a window title that contains the substring "Program Manager". If such a process is found, the malware will inject itself into that process.
 
+![Alt text](Screenshot%20from%202023-05-13%2023-31-15.png)
+
+3. Identify the entry point of the DLL injection. Where is DllMain?
+
+To identify the entry point of the DLL injection, we searched for the DllMain function in the malicious DLL. We found it in the export table of the DLL, which is a list of functions that can be called from outside the DLL. DllMain is the entry point for a DLL and is called by the system when the DLL is loaded and unloaded. In this case, DllMain is responsible for setting up the malicious code to be executed within the legitimate process.
+
+![Alt text](Screenshot%20from%202023-05-13%2023-39-19.png)
+
+4. This malware does something every ____ seconds. How often, and where is the loop where that waiting happens?
+
+The malware performs its malicious activity every 60 seconds. We identified this by analyzing the code and finding a loop that sleeps for 60,000 milliseconds (60 seconds) before executing the next iteration. The loop is located in the malicious DLL and is responsible for the malware's persistence and communication with its command and control (C&C) server.
+
+![Alt text](Screenshot%20from%202023-05-13%2023-45-12.png)
+
+5. What does the malware do every _____ seconds?
+
+The malware connects to its C&C server every 60 seconds and waits for commands. When a command is received, the malware executes it within the context of the legitimate process it has injected into. The exact nature of the commands and their effects on the compromised system depend on the specific malware variant, which may include data exfiltration, remote access, or other malicious activities.
+
+![Alt text](Screenshot%20from%202023-05-13%2023-43-10.png)
